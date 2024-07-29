@@ -1,0 +1,47 @@
+.sidebar {
+  background-color: var(--sidebar-bg-color);
+  color: var(--sidebar-text-color);
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-h1 {
+  font-size: 24px;
+  margin: 20px 0;
+  color: var(--sidebar-h1-color);
+}
+
+.sidebar-icon {
+  color: var(--sidebar-icon-color);
+}
+
+:root {
+  --sidebar-bg-color-light: #ffffff;
+  --sidebar-bg-color-dark: #101c44;
+  --sidebar-text-color-light: #000000;
+  --sidebar-text-color-dark: #ffffff;
+  --sidebar-h1-color-light: #000000;
+  --sidebar-h1-color-dark: #ffffff;
+  --sidebar-icon-color-light: #000000;
+  --sidebar-icon-color-dark: #ffffff;
+}
+
+[data-theme="light"] {
+  --sidebar-bg-color: var(--sidebar-bg-color-light);
+  --sidebar-text-color: var(--sidebar-text-color-light);
+  --sidebar-h1-color: var(--sidebar-h1-color-light);
+  --sidebar-icon-color: var(--sidebar-icon-color-light);
+}
+
+[data-theme="dark"] {
+  --sidebar-bg-color: var(--sidebar-bg-color-dark);
+  --sidebar-text-color: var(--sidebar-text-color-dark);
+  --sidebar-h1-color: var(--sidebar-h1-color-dark);
+  --sidebar-icon-color: var(--sidebar-icon-color-dark);
+}

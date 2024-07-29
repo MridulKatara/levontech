@@ -1,0 +1,40 @@
+.info-boxes {
+    margin-top: 20px;
+  }
+  
+  .info-box {
+    background-color: var(--info-box-bg-color);
+    color: var(--info-box-text-color);
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-icon {
+    font-size: 36px;
+    color: var(--info-icon-color);
+    margin-bottom: 8px;
+  }
+  
+  :root {
+    --info-box-bg-color-light: #ffffff;
+    --info-box-bg-color-dark: #101c44;
+    --info-box-text-color-light: #000000;
+    --info-box-text-color-dark: #ffffff;
+    --info-icon-color-light: #000000;
+    --info-icon-color-dark: #ffffff;
+  }
+  
+  [data-theme="light"] {
+    --info-box-bg-color: var(--info-box-bg-color-light);
+    --info-box-text-color: var(--info-box-text-color-light);
+    --info-icon-color: var(--info-icon-color-light);
+  }
+  
+  [data-theme="dark"] {
+    --info-box-bg-color: var(--info-box-bg-color-dark);
+    --info-box-text-color: var(--info-box-text-color-dark);
+    --info-icon-color: var(--info-icon-color-dark);
+  }
+  

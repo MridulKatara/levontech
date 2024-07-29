@@ -1,0 +1,50 @@
+{
+  "lineChartData": {
+    "monthly": [
+      { "label": "January", "value": 200 },
+      { "label": "February", "value": 300 },
+      { "label": "March", "value": 250 },
+      { "label": "April", "value": 270 },
+      { "label": "May", "value": 320 },
+      { "label": "June", "value": 290 },
+      { "label": "July", "value": 310 },
+      { "label": "August", "value": 330 }
+    ]
+  },
+  "barChartData": {
+    "daily": [
+      { "label": "Monday", "value": 20 },
+      { "label": "Tuesday", "value": 25 },
+      { "label": "Wednesday", "value": 18 },
+      { "label": "Thursday", "value": 22 },
+      { "label": "Friday", "value": 17 },
+      { "label": "Saturday", "value": 30 },
+      { "label": "Sunday", "value": 28 }
+    ],
+    "weekly": [
+      { "label": "Week 1", "value": 70 },
+      { "label": "Week 2", "value": 85 },
+      { "label": "Week 3", "value": 65 },
+      { "label": "Week 4", "value": 90 },
+      { "label": "Week 5", "value": 75 },
+      { "label": "Week 6", "value": 80 },
+      { "label": "Week 7", "value": 95 },
+      { "label": "Week 8", "value": 85 },
+      { "label": "Week 9", "value": 70 },
+      { "label": "Week 10", "value": 90 }
+    ]
+  },
+  "pieChartData": {
+    "monthly": [
+      { "label": "Category A", "value": 300 },
+      { "label": "Category B", "value": 400 },
+      { "label": "Category C", "value": 350 }
+    ]
+  },
+  "checkTableData": [
+    { "name": "Task 1", "progress": "Completed", "quantity": 10, "date": "01/07/2024" },
+    { "name": "Task 2", "progress": "In Progress", "quantity": 5, "date": "02/07/2024" },
+    { "name": "Task 3", "progress": "Pending", "quantity": 8, "date": "03/07/2024" },
+    { "name": "Task 4", "progress": "Completed", "quantity": 12, "date": "04/07/2024" }
+  ]
+}

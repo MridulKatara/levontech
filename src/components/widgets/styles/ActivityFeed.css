@@ -1,0 +1,36 @@
+.activity-feed {
+    background-color: var(--widget-bg-color, #fff);
+    color: var(--widget-text-color, #333);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  
+  .activity-feed h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .activity-feed ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .activity-feed ul li {
+    border-bottom: 1px solid #eee;
+    padding: 0.5rem 0;
+  }
+  
+  .activity-feed ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .activity-feed ul li p {
+    margin: 0;
+  }
+  
+  .activity-feed ul li span {
+    font-size: 0.8rem;
+    color: #777;
+  }
+  

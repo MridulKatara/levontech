@@ -1,0 +1,31 @@
+.team-members {
+    background-color: var(--widget-bg-color, #fff);
+    color: var(--widget-text-color, #333);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  
+  .team-members h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .period-selector {
+    margin-bottom: 1rem;
+  }
+  
+  .period-selector label {
+    margin-right: 1rem;
+  }
+  
+  .team-members ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .team-members li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
